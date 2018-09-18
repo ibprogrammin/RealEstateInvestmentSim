@@ -1,0 +1,149 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.seriousmonkey.realestateinvestmentsimulator.fragments.LenderFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingStart="10dp"
+                android:paddingTop="18dp"
+                android:text="Mortgage Rate"
+                android:textColor="@color/colorInputLabelGreen"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/MortgageRateInput"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_border"
+                android:ems="10"
+                android:hint="% 1.99"
+                android:inputType="numberDecimal"
+                android:maxLines="1"
+                android:paddingBottom="10dp"
+                android:paddingEnd="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:selectAllOnFocus="true"
+                android:textAlignment="viewEnd"
+                android:textColor="@color/colorInputDefault"
+                android:textColorHint="@color/colorTextHint"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="77dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingStart="10dp"
+                android:paddingTop="18dp"
+                android:text="Down (%)"
+                android:textColor="@color/colorInputLabelGreen"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/DownpaymentInput"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_border"
+                android:ems="10"
+                android:hint="% 10"
+                android:inputType="numberDecimal"
+                android:maxLines="1"
+                android:paddingBottom="10dp"
+                android:paddingEnd="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:selectAllOnFocus="true"
+                android:textAlignment="viewEnd"
+                android:textColor="@color/colorInputDefault"
+                android:textColorHint="@color/colorTextHint"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="201dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingStart="10dp"
+                android:paddingTop="18dp"
+                android:text="Amortization (yrs.)"
+                android:textColor="@color/colorInputLabelGreen"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/AmortizationInput"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_border"
+                android:ems="10"
+                android:hint="25"
+                android:inputType="number"
+                android:maxLines="1"
+                android:paddingBottom="10dp"
+                android:paddingEnd="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:selectAllOnFocus="true"
+                android:textAlignment="viewEnd"
+                android:textColor="@color/colorInputDefault"
+                android:textColorHint="@color/colorTextHint"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="240dp"
+                tools:layout_editor_absoluteY="328dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
